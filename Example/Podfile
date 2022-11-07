@@ -8,6 +8,5 @@ target 'MidoLib_Example' do
   target 'MidoLib_Tests' do
     inherit! :search_paths
 
-    
   end
 end

@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'MidoLib/Classes/**/*'
+  s.source_files = 'MidoLib/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'MidoLib' => ['MidoLib/Assets/*.png']
