@@ -41,12 +41,12 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6083FC815B2A0F253C0E4E56 /* Pods-MidoLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidoLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-MidoLib_Tests/Pods-MidoLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73DB0839B4AD68F89B703A7B /* Pods_MidoLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MidoLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		990FE9F93595C482C00412D6 /* MidoLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MidoLib.podspec; path = ../MidoLib.podspec; sourceTree = "<group>"; };
+		990FE9F93595C482C00412D6 /* MidoLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MidoLib.podspec; path = ../MidoLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B260DF60B6C4C5B592C20EF2 /* Pods-MidoLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidoLib_Example.release.xcconfig"; path = "Target Support Files/Pods-MidoLib_Example/Pods-MidoLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B29F825177C18ABA112166A2 /* Pods_MidoLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MidoLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C777F68445D84B77D1A1D955 /* Pods-MidoLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidoLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-MidoLib_Example/Pods-MidoLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C989486CC7F4A1D0583562C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EEA48A79F6092987ADC8B2AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C989486CC7F4A1D0583562C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EEA48A79F6092987ADC8B2AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 				3B09F1250F7278B5412886F1 /* Pods-MidoLib_Tests.debug.xcconfig */,
 				6083FC815B2A0F253C0E4E56 /* Pods-MidoLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
