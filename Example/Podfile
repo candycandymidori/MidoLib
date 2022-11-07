@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MidoLib_Example' do
+  pod 'MidoLib', :path => '../'
+
+  target 'MidoLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
