@@ -1,0 +1,6 @@
+framework module MidoLib {
+  umbrella header "MidoLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

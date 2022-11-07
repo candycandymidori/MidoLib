@@ -3,7 +3,7 @@ import os.log
 
 public class lg {
   public static func mido(_ items: Any..., file: String = #file, function: String = #function,
-         line: Int = #line, tag: String = "WEB mido =>") {
+         line: Int = #line, tag: String = "WEB midori =>") {
     #if DEBUG
     let fileName = (file as NSString).lastPathComponent
     let dateFormatter = DateFormatter()

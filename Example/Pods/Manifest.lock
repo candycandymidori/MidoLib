@@ -1,0 +1,16 @@
+PODS:
+  - MidoLib (0.1.0)
+
+DEPENDENCIES:
+  - MidoLib (from `../`)
+
+EXTERNAL SOURCES:
+  MidoLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MidoLib: 565c1b89a37496b4d8d836ec56204f7d36f4db5f
+
+PODFILE CHECKSUM: 94cc34c1090d45c6aaafcfe5512de58dfc8ed55d
+
+COCOAPODS: 1.11.3
